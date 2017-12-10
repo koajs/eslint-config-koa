@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-koa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Koa's ESLint config, based on Standard",
   "scripts": {
     "test": "eslint ."
   },
@@ -10,8 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/koajs/eslint-config-koa.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nick McCurdy <nick@nickmccurdy.com> (http://nickmccurdy.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/koajs/eslint-config-koa/issues"
   },
