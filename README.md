@@ -1,7 +1,7 @@
 # eslint-config-koa
 [![NPM version](https://img.shields.io/npm/v/eslint-config-koa.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-koa)
 [![build status](https://img.shields.io/travis/koajs/eslint-config-koa/master.svg?style=flat-square)](https://travis-ci.org/koajs/eslint-config-koa)
-[![dependency status](http://img.shields.io/david/koajs/eslint-config-koa.svg?style=flat-square)](https://david-dm.org/koajs/eslint-config-koa)
+[![dependency status](https://img.shields.io/david/dev/koajs/eslint-config-koa.svg?style=flat-square)](https://david-dm.org/koajs/eslint-config-koa?type=dev)
 [![downloads](https://img.shields.io/npm/dm/eslint-config-koa.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-koa)
 
 [Koa](https://www.npmjs.com/package/koa)'s ESLint config, based on [Standard](https://www.npmjs.com/package/eslint-config-standard)
