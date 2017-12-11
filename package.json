@@ -1,19 +1,34 @@
 {
   "name": "eslint-config-koa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Koa's ESLint config, based on Standard",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koajs/eslint-config-koa.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nick McCurdy <nick@nickmccurdy.com> (http://nickmccurdy.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/koajs/eslint-config-koa/issues"
   },
-  "homepage": "https://github.com/koajs/eslint-config-koa#readme"
+  "homepage": "https://github.com/koajs/eslint-config-koa#readme",
+  "peerDependencies": {
+    "eslint-config-standard": ">=7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
 }
