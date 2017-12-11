@@ -17,7 +17,7 @@ official ESLint website.
 To use the Koa shareable config, first run this:
 
 ```bash
-npm install --save-dev eslint-config-koa eslint-config-standard eslint-plugin-standard eslint-plugin-promise
+npm install --save-dev eslint-config-koa eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
 Then, add this to your .eslintrc file:
