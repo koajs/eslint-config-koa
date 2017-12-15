@@ -13,4 +13,4 @@ cache:
     - node_modules
 before_install:
   - npm install --global install-peerdeps
-  - install-peerdeps eslint-config-standard@$STANDARD_VERSION
+  - install-peerdeps "eslint-config-standard@$STANDARD_VERSION"
