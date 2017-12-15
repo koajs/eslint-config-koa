@@ -22,6 +22,9 @@
   "peerDependencies": {
     "eslint-config-standard": ">=5"
   },
+  "devDependencies": {
+    "eslint-config-standard": "$NPM_CONFIG_STANDARD_VERSION"
+  }
   "eslintConfig": {
     "extends": "./index.js"
   }
