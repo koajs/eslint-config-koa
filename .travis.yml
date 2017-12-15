@@ -11,3 +11,6 @@ env:
 cache:
   directories:
     - node_modules
+before_install:
+  - npm install --global install-peerdeps
+  - echo "eslint-config-standard@${STANDARD_VERSION}" | xargs install-peerdeps
