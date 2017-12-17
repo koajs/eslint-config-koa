@@ -3,3 +3,4 @@ node_js: 4
 cache:
   directories:
     - node_modules
+script: npx test-all-versions eslint-config-standard >=5 npm test

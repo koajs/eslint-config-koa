@@ -20,15 +20,10 @@
   },
   "homepage": "https://github.com/koajs/eslint-config-koa#readme",
   "peerDependencies": {
-    "eslint-config-standard": ">=7.0.1"
+    "eslint-config-standard": ">=5"
   },
   "devDependencies": {
-    "eslint": "^4.13.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "test-all-versions": "^3.1.1"
   },
   "eslintConfig": {
     "extends": "./index.js"
