@@ -23,7 +23,7 @@
     "eslint-config-standard": ">=5"
   },
   "devDependencies": {
-    "eslint-config-standard": "$NPM_CONFIG_STANDARD_VERSION"
+    "test-all-versions": "^3.1.1"
   },
   "eslintConfig": {
     "extends": "./index.js"
